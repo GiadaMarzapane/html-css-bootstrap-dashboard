@@ -6,12 +6,20 @@ header{
     height: 50px;
 }
 
+.logo-mini{
+    width: 40px;
+}
+
 main{
     height: calc(100vh - 50px);
 }
 
 aside{
     background-color: var(--aside-color);
+}
+
+aside i {
+    width: 18px;
 }
 
 .main-top{
