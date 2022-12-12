@@ -18,21 +18,25 @@
         <!-- INIZIO HEADER -->
         <header>
             <div class="container-fluid py-2 top-0 start-0">
-                <div class="row justify-content-between">
-                    <div class="col-2">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-auto">
                         <div>
                             <img src="img/logo.svg" class="d-none d-lg-inline-block" alt="logo">
                             <img src="img/mobile-logo.png" class="d-lg-none logo-mini" alt="logo">
                         </div>
                     </div>
-                    <div class="col-auto">
-                        barra di ricerca                    
+                    <div class="col">
+                        <div>
+                            <form class="w-100" role="search">
+                                <input class="form-control my-form border-0" type="search" placeholder="&#xf002 Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                            </form>
+                        </div>                    
                     </div>
-                    <div class="col-2 text-end">
+                    <div class="col-auto text-end">
                         <div id="header-icon-list">
-                            <i class="fa-solid fa-list me-3"></i>
-                            <i class="fa-solid fa-circle-question me-3"></i>
-                            <i class="fa-solid fa-ellipsis-vertical me-3"></i>
+                            <i class="fa-solid fa-list d-none d-lg-inline-block me-3"></i>
+                            <i class="fa-solid fa-circle-question d-none d-lg-inline-block me-3"></i>
+                            <i class="fa-solid fa-ellipsis-vertical d-none d-lg-inline-block me-3"></i>
                             <i class="fa-solid fa-bell me-3"></i>
                         </div>                    
                     </div>
@@ -75,24 +79,24 @@
                     <div class="col p-0 h-100">
                         <section class="w-100">
                             <section class="main-top py-2 text-light">
-                                <div class="container">
+                                <div class="container-fluid p-3">
                                     <div class="row">
-                                        <div class="col-6">
+                                        <div class="col-sm-12 col-md-4 col-lg-6">
                                             elementi
                                         </div>
-                                        <div class="col-4">
+                                        <div class="col-sm-12 col-md-4 col-lg-4">
                                             elementi
                                         </div>
-                                        <div class="col-2">
+                                        <div class="col-sm-12 col-md-4 col-lg-2">
                                             elmenti
                                         </div>
                                     </div>
                                 </div>
                             </section>
                             <section class="w-100 py-3">
-                                <div class="container">
+                                <div class="container-fluid p-3">
                                     <div class="row g-3">
-                                        <div class="col-7 p-1">
+                                        <div class="col-sm-12 col-lg-7 p-1">
                                             <div class="container">
                                                 <div class="row g-3 flex-column">
                                                     <div class="col border p-1">Prossime Classi</div>
@@ -100,7 +104,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-5 p-1">
+                                        <div class="col-sm-12 col-lg-5 p-1">
                                             <div class="container">
                                                 <div class="row g-3 flex-column">
                                                     <div class="col border p-1">Todo</div>
