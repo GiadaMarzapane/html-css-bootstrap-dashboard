@@ -12,8 +12,6 @@ main{
 
 aside{
     background-color: var(--aside-color);
-    height: 100%;
-    width: fit-content;
 }
 
 .main-top{
