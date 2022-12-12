@@ -1,0 +1,17 @@
+:root{
+    --aside-color: #051e34;
+}
+
+header{
+    height: 50px;
+}
+
+main{
+    height: calc(100vh - 50px);
+}
+
+aside{
+    background-color: var(--aside-color);
+    height: 100%;
+    width: fit-content;
+}
