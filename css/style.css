@@ -2,6 +2,15 @@
     --aside-color: #051e34;
 }
 
+header{
+    height: 55px;
+    z-index: 10;
+}
+
+.main-part{
+    overflow: auto;
+}
+
 #header-icon-list i{
     color: var(--bs-gray-700);
 }
@@ -24,11 +33,12 @@
 }
 
 main{
-    height: calc(100vh - 50px);
+    height: calc(100vh - 55px);
 }
 
 aside{
     background-color: var(--aside-color);
+    background-image: url('../img/sidebar-bg.png');
 }
 
 aside i {
@@ -45,6 +55,26 @@ span.badge{
     background-color: rgba(5, 30, 52, 0.25);
 }
 
-.fa-angles-right{
+table{
     font-size: 12px;
+}
+
+.intestazione-tab{
+    font-size: 0.8rem;
+}
+
+.avatarimg{
+    width: 20px;
+}
+
+table span.badge{
+    font-weight: 500;
+    font-size: 0.7rem;
+}
+
+i.fa-pencil,
+i.fa-trash{
+    color: var(--bs-gray-600);
+    border: 1.5px solid;
+    border-color: var(--bs-gray-600);
 }
