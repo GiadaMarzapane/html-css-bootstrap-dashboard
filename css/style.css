@@ -92,3 +92,7 @@ table span.badge{
     width: 100%;
     overflow: hidden;
 }
+
+.aside-link:hover{
+    background-color: rgba(255, 255, 255, 0.299);
+}
