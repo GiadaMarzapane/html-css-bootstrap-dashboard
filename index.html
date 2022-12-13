@@ -127,22 +127,80 @@
                                         </div>
                                         <div class="col-sm-12 order-first col-md-4 order-md-last col-lg-3 mb-3">
                                             <span class="align-middle">Nuovo Studente</span>                                            
-                                                <button class="align-middle bg-transparent border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
-                                                    aria-controls="offcanvasExample">
-                                                    <i class="text-light fs-4 bi bi-plus border rounded-3 px-1"></i>
-                                                </button>                                            
-                                        </div>
-                                        <div class="offcanvas show offcanvas-start text-dark" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-                                            <div class="offcanvas-header">
-                                                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
-                                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                            <button class="align-middle bg-transparent border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+                                                aria-controls="offcanvasExample">
+                                                <i class="text-light fs-4 bi bi-plus border rounded-3 px-1"></i>
+                                            </button>
+                                            <div class="offcanvas offcanvas-start text-dark w-100" tabindex="-1" id="offcanvasExample"
+                                                aria-labelledby="offcanvasExampleLabel">
+                                                <div class="offcanvas-header">
+                                                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                                </div>
+                                                <div class="offcanvas-body">
+                                                    <form>
+                                                        <div class="mb-1 d-flex">
+                                                            <div class="w-50 px-2">
+                                                                <label for="Inputname" class="form-label">Nome</label>
+                                                                <input type="text" class="form-control form-control-sm" id="Inputname">
+                                                            </div>
+                                                            <div class="w-50 px-2">
+                                                                <label for="Inputsurname" class="form-label">Cognome</label>
+                                                                <input type="text" class="form-control form-control-sm" id="Inputsurname">
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex">
+                                                            <div class="w-50 px-2">
+                                                                <label for="InputEmail1" class="form-label">Email</label>
+                                                                <input type="email" class="form-control form-control-sm" id="InputEmail1">
+                                                            </div>
+                                                            <div class="w-50 px-2">
+                                                                <label for="InputPassword1" class="form-label">Password</label>
+                                                                <input type="password" class="form-control form-control-sm" id="InputPassword1">
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex">
+                                                            <div class="w-100 px-2">
+                                                                <label for="Inputaddress" class="form-label">Indirizzo</label>
+                                                                <input type="text" class="form-control form-control-sm" id="Inputaddress">
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex">
+                                                            <div class="px-2">
+                                                                <label for="Inputcity" class="form-label">Città</label>
+                                                                <input type="text" class="form-control form-control-sm" id="Inputcity">
+                                                            </div>
+                                                            <div class="px-2 w-25 flex-grow-1">
+                                                                <label for="Inputstate" class="form-label">Stato</label>
+                                                                <select class="form-select form-select-sm" id="inputGroupSelect01">
+                                                                    <option selected>Scegli...</option>
+                                                                    <option value="1">Italia</option>
+                                                                    <option value="2">Spagna</option>
+                                                                    <option value="3">Germania</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="px-2 w-25">
+                                                                <label for="Inputcap" class="form-label text-uppercase">cap</label>
+                                                                <input type="text" class="form-control form-control-sm" id="Inputcap">
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex">
+                                                            <div class="w-100 px-2">
+                                                                <label for="Inputfile" class="form-label">Foto</label>
+                                                                <input type="file" class="form-control form-control-sm" id="Inputfile">
+                                                            </div>
+                                                        </div>
+                                                        <div class="px-2 pt-4 pb-2">
+                                                            <input type="checkbox"> <span id="checkbox">Seleziona per proseguire</span>
+                                                        </div>
+                                                        <div class="p-2">
+                                                            <button type="submit" class="btn btn-primary btn-sm">Salva</button>
+                                                            <button type="reset" class="btn btn-warning btn-sm">Svuota</button>
+                                                        </div>
+                                                    </form>
+                                                </div>
                                             </div>
-                                            <div class="offcanvas-body">
-                                                <div>
-                                                    
-                                                </div>                                            
-                                            </div>
-                                        </div>
+                                        </div>                                        
                                     </div>
                                 </div>
                             </section>

@@ -61,7 +61,9 @@ table{
 .intestazione-tab,
 .accordion > *,
 .card-body ul.list-group li,
-.dropdown-menu li a{
+.dropdown-menu li a,
+label,
+#checkbox{
     font-size: 0.8rem;
 }
 
@@ -96,4 +98,10 @@ table span.badge{
 
 .aside-link:hover{
     background-color: rgba(255, 255, 255, 0.299);
+}
+
+@media all and (min-width: 768px) {
+    div.offcanvas{
+        width: 50%!important;
+    }
 }
