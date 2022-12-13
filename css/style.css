@@ -58,7 +58,9 @@ table{
     font-size: 12px;
 }
 
-.intestazione-tab{
+.intestazione-tab,
+.accordion > *,
+.card-body ul.list-group li{
     font-size: 0.8rem;
 }
 
@@ -84,4 +86,8 @@ table span.badge{
     border: 1.5px solid;
     border-color: var(--bs-gray-600);
     border-radius: 5px;
+}
+
+.stats img{
+    width: 100%;
 }
