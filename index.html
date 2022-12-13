@@ -39,7 +39,16 @@
                             <i class="fa-solid fa-list d-none d-lg-inline-block me-3"></i>
                             <i class="fa-solid fa-circle-question d-none d-lg-inline-block me-3"></i>
                             <i class="fa-solid fa-ellipsis-vertical d-none d-lg-inline-block me-3"></i>
-                            <i class="fa-solid fa-bell me-3"></i>
+                            <div class="dropdown d-inline-block">
+                                <button class="border-0 bg-transparent" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-bell me-3"></i>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Profilo</a></li>
+                                    <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                                    <li><a class="dropdown-item" href="#">Logout</a></li>
+                                </ul>
+                            </div>                            
                         </div>                    
                     </div>
                 </div>
@@ -51,6 +60,7 @@
             <div class="container-fluid h-100">
                 <div class="row h-100">
                     <div class="col-auto p-0 h-100">
+                        <!-- INIZIO ASIDE -->
                         <aside class="h-100 py-4">
                             <div class="container-fluid h-100">
                                 <div class="h-100 row flex-column justify-content-between">
@@ -77,6 +87,7 @@
                                 </div>
                             </div>
                         </aside>
+                        <!-- FINE ASIDE -->
                     </div>
                     <div class="main-part col p-0 h-100">
                         <section class="w-100">

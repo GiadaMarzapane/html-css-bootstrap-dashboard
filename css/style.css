@@ -14,7 +14,7 @@ header{
     color: var(--bs-gray-700);
 }
 
-#header-icon-list i:last-of-type{
+#header-icon-list div.dropdown i{
     color: var(--bs-warning);
 }
 
@@ -60,7 +60,8 @@ table{
 
 .intestazione-tab,
 .accordion > *,
-.card-body ul.list-group li{
+.card-body ul.list-group li,
+.dropdown-menu li a{
     font-size: 0.8rem;
 }
 
