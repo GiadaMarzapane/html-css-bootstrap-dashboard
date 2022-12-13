@@ -90,4 +90,5 @@ table span.badge{
 
 .stats img{
     width: 100%;
+    overflow: hidden;
 }
