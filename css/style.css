@@ -63,12 +63,16 @@ table{
 }
 
 .avatarimg{
-    width: 20px;
+    width: 25px;
 }
 
 table span.badge{
     font-weight: 500;
     font-size: 0.7rem;
+}
+
+.class-td{
+    width: 40%;
 }
 
 .my-icon{
@@ -81,10 +85,3 @@ table span.badge{
     border-color: var(--bs-gray-600);
     border-radius: 5px;
 }
-
-/* i.fa-pencil,
-i.fa-trash{
-    color: var(--bs-gray-600);
-    border: 1.5px solid;
-    border-color: var(--bs-gray-600);
-} */
