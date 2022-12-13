@@ -4,7 +4,6 @@
 
 header{
     height: 55px;
-    z-index: 10;
 }
 
 .main-part{
@@ -72,9 +71,20 @@ table span.badge{
     font-size: 0.7rem;
 }
 
-i.fa-pencil,
+.my-icon{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    color: var(--bs-gray-600);
+    border: 1.5px solid;
+    border-color: var(--bs-gray-600);
+    border-radius: 5px;
+}
+
+/* i.fa-pencil,
 i.fa-trash{
     color: var(--bs-gray-600);
     border: 1.5px solid;
     border-color: var(--bs-gray-600);
-}
+} */
