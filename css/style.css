@@ -10,7 +10,7 @@ header{
     overflow: auto;
 }
 
-#header-icon-list i{
+#header-icon-list a i{
     color: var(--bs-gray-700);
 }
 
